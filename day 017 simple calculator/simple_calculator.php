@@ -40,6 +40,17 @@
         </div>
 
     </form>
+
+    <div class="code" dir="ltr">
+        <?php
+        $code = file_get_contents('https://raw.githubusercontent.com/zabdulmanea/taheeltech-webdevelopment/dba28972efd0747b0a1e86afd5874835e021cb29/index.php');
+        // $code = str_replace('$','\$',$code);
+        // $code = str_replace('"','\"',$code);
+        // highlight_string($code);  
+        // highlight_string('<html>');
+        ?>
+    </div>
+
 </body>
 
 </html>
