@@ -27,8 +27,8 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ٥',
         'subtitle' => 'تصميم نموذج "تسجيل عضوية جديدة"',
         'alt' => 'تصميم نموذج عضوية جديدة',
-        'link' => '',
-        'code_link' => ''
+        'link' => 'day 005 - new registration form/registration_form.html',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20005%20-%20new%20registration%20form/registration_form.html'
     ),
     array(
         'title' => 'تطبيق اليوم ١١',
