@@ -53,6 +53,14 @@ body {
     padding: 10px 30px;
 }
 
+hr {
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
 input,
 textarea,
 select {
@@ -61,10 +69,10 @@ select {
     border-width: 1px;
 }
 
-input:not(input[type=radio]) {
+/* input:not(input[type=radio]) {
     width: 80%;
     height: 20px;
-}
+} */
 
 /* ################################################### */
 /* Header CSS Style */
@@ -257,4 +265,41 @@ footer {
 
 .asterisks {
     color: red;
+}
+
+/* ################################################### */
+/* draw_triangles.php CSS Style */
+.tri_high-div {
+    margin-top: 50px;
+    color: #2C3333;
+    text-align: center;
+}
+
+.tri_high-div input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.triangle-div {
+    flex: 1 20%;
+    font-family: 'Spline Sans Mono', monospace;
+    background-color: #A5C9CA;
+}
+
+.code {
+    flex: 1 60%;
+    background-color: white;
+}
+
+.triangle-div,
+.code {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
 }
