@@ -23,10 +23,6 @@
         BMI >= 40 then user has 'سمنة مفرطة جدًا'
     */
 
-
-// $height = 190;
-// $weight = 90;
-
 $height = $_POST['height'] ?? 1;
 $weight = $_POST['weight'] ?? 0;
 

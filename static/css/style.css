@@ -386,3 +386,80 @@ footer {
 .result-div label {
     color: #b9806a;
 }
+
+/* ################################################### */
+/* exams_results_page.php CSS Style */
+.all-certificates-div {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: right;
+    width: 100%;
+    column-gap: 28px;
+    row-gap: 28px;
+}
+
+.all-certificates-div p {
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}
+
+.certificate-div {
+    flex: 1 1 289px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+.certificate-div span {
+    color: #347474;
+}
+
+.name-div,
+.track-div {
+    flex: 1 50%;
+}
+
+.table-div,
+.percentage-div,
+.results-div {
+    flex: 1 100%;
+}
+
+.percentage-div,
+.results-div {
+    margin: 0;
+    padding: 0;
+}
+
+.table-div, .results-table-div {
+    margin: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.table-div th, .results-table-div th {
+    background-color: #385170;
+    color: #ececec;
+}
+
+.table-div td:nth-child(1) {
+    background-color: #ececec;
+}
+
+.table-div tr:last-child>td:first-child {
+    background-color: #347474;
+    color: #ececec;
+}
+
+.table-div td, .results-table-div td {
+    font-weight: bold;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+}

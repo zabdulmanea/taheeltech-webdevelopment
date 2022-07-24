@@ -15,9 +15,6 @@
     Caluclate IBW based on gender 
     */
 
-// $gender = 'female';
-// $height = 165;
-
 $gender = $_POST['gender'] ?? '';
 $height = $_POST['height'] ?? 1;
 $ibw;

@@ -62,8 +62,8 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ١٦',
         'subtitle' => 'عرض درجات الاختبار بالمواد الدراسية لمجموعة طلاب بالصف الأول الثانوي وتحديد النسبة المئوية وحالة الطالب',
         'alt' => 'عرض درجات الاختبار للطلاب',
-        'href' => '',
-        'code_link' => ''
+        'href' => 'day 016 - students grades/exams_results_page.php',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20016%20-%20students%20grades/exams%20results.php'
     ),
     array(
         'title' => 'تطبيق اليوم ١٧',
