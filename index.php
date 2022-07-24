@@ -30,8 +30,15 @@
         foreach ($exercises_info as $exercise_info) {
             $info = '
         <div class="exercise_div col-1 col-s-1">
-            <h2 class="ex_no">' . $exercise_info['title'] . '</h2>
-            <a class="ex_link" target="_blank" href="' . $exercise_info['link'] . '" alt="' . $exercise_info['alt'] . '">' . $exercise_info['subtitle'] . '</a>
+            <div class="ex-col-1">
+                <h2 class="ex_no">' . $exercise_info['title'] . '</h2>
+            </div>
+            <div class="ex-col-2">
+                <a class="ex_link" target="_blank" href="' . $exercise_info['link'] . '" alt="' . $exercise_info['alt'] . '">' . $exercise_info['subtitle'] . '</a>
+            </div>
+            <div class="ex-col-3">
+                <a class="code_link" target="_blank" href="' . $exercise_info['code_link'] . '" alt="' . $exercise_info['alt'] . '"> (الكود البرمجي) </a>
+            </div>
         </div>
         ';
             echo $info;

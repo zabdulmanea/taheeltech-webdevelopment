@@ -15,16 +15,10 @@
     display: table;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-
 @media only screen and (min-width: 600px) {
-
     /* For tablets: */
     .col-s-1 {
-        width: 75%;
+        width: 100%;
     }
 }
 
@@ -33,6 +27,9 @@
     /* For desktop: */
     .col-1 {
         width: 100%;
+    }
+    body {
+        margin: 0 150px;
     }
 }
 
@@ -49,7 +46,7 @@ button {
 
 body {
     background-color: #fcf8f3;
-    margin: 0 150px;
+    /* margin: 0 150px; */
     color: #625f5e;
 }
 
@@ -112,27 +109,44 @@ footer {
 /* ################################################### */
 /* Index.php CSS Style */
 .exercise_div {
-    border-radius: 10px;
-    margin: 10px;
     display: flex;
     flex-flow: row wrap;
+    border-radius: 10px;
+    margin: 15px 0;
+    text-align: center;
+    height: 70px;
+}
+
+[class*="ex-col-"] {
+    display: table;
+}
+
+[class*="ex-col-"]>* {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ex-col-1 {
+    flex: 1 20%;
+    border-radius: 0 10px 10px 0;
+    background-color: #7c7775;
+}
+
+.ex-col-2 {
+    flex: 1 50%;
+}
+
+.ex-col-3 {
+    flex: 1 15%;
 }
 
 .ex_no {
-    flex: 1;
-    text-align: center;
-    margin: 0;
-    border-radius: 0 10px 10px 0;
     color: #fcf8f3;
-    background-color: #7c7775;
-
 }
 
 .ex_link {
     font-size: 14pt;
-    flex: 1 50%;
     color: #625f5e;
-    border-radius: 10px 0 0 10px;
     text-decoration: none;
     background:
         linear-gradient(to bottom,
@@ -148,9 +162,23 @@ footer {
     color: #fcf8f3;
 }
 
-.ex_no,
-.ex_link {
-    padding: 15px;
+.code_link {
+    font-size: 14pt;
+    color: #fcf8f3;
+    text-decoration: none;
+    border-radius: 10px 0 0 10px;
+    background:
+        linear-gradient(to bottom,
+            #c3c0bb,
+            #85827e),
+        linear-gradient(to right,
+            #dbdbdb,
+            #cec6bd);
+}
+
+.code_link:hover {
+    background-size: 0 3px, 100% 3px;
+    color: #9d8f7e;
 }
 
 /* ################################################### */

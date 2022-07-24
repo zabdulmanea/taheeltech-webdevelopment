@@ -20,8 +20,8 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ٣',
         'subtitle' => 'تصميم جدول لنتيجة درجات مجموعة طلاب في المواد الدراسية',
         'alt' => 'تصميم جدول درجات الطلاب',
-        'link' => '',
-        'code_link' => ''
+        'link' => 'day 003 - students grades table/grades table.html',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20003%20-%20students%20grades%20table/grades%20table.html'
     ),
     array(
         'title' => 'تطبيق اليوم ٥',
