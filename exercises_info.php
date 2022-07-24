@@ -13,8 +13,8 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ٢',
         'subtitle' => 'تصميم مقال بسيط',
         'alt' => 'تصميم مقال بسيط"',
-        'link' => '',
-        'code_link' => ''
+        'link' => 'day 002 - create a simple article/simple article.html',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20002%20-%20create%20a%20simple%20article/simple%20article.html'
     ), 
     array(
         'title' => 'تطبيق اليوم ٣',

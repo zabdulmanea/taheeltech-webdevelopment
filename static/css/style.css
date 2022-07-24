@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
     float: right;
     padding: 15px;
-}
+} */
 
 .row::after {
     content: "";
@@ -42,7 +42,8 @@ html {
     background-color: #9c958e;
 }
 
-body, button {
+body,
+button {
     font-family: 'Tajawal', sans-serif;
 }
 
@@ -70,11 +71,15 @@ input:not(input[type=radio]) {
 /* Header CSS Style */
 header {
     padding: 15px;
-    background-color: #f3ecec;
 }
 
 h1 {
     text-align: center;
+}
+
+header,
+.owner-div span {
+    background-color: #fffbfb;
 }
 
 .owner-div {
@@ -86,7 +91,6 @@ h1 {
 
 .owner-div span {
     font-size: 15px;
-    background-color: #f3ecec;
     padding: 0 10px;
 }
 
@@ -98,12 +102,56 @@ footer {
     font-size: 12px;
     margin: 0;
     font-size: 0.9em;
+    padding-bottom: 8px;
 }
 
 .heart {
     color: #b63434;
-    /* Animation */
-    transform: rotate(-45deg) scale(1);
-    animation: pulse 2s linear infinite;
 }
 
+/* ################################################### */
+/* Index.php CSS Style */
+.exercise_div {
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.ex_no {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    border-radius: 0 10px 10px 0;
+    color: #fcf8f3;
+    background-color: #7c7775;
+
+}
+
+.ex_link {
+    font-size: 14pt;
+    flex: 1 50%;
+    color: #625f5e;
+    border-radius: 10px 0 0 10px;
+    text-decoration: none;
+    background:
+        linear-gradient(to bottom,
+            #c7ceba,
+            #979664),
+        linear-gradient(to right,
+            #c7ceba,
+            #8c8a4f);
+}
+
+.ex_link:hover {
+    background-size: 0 3px, 100% 3px;
+    color: #fcf8f3;
+}
+
+.ex_no,
+.ex_link {
+    padding: 15px;
+}
+
+/* ################################################### */
+/* Index.php CSS Style */
