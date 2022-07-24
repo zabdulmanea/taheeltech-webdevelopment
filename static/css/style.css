@@ -327,3 +327,26 @@ footer {
 .white {
     background-color: white;
 }
+
+/* ################################################### */
+/* pyramid_multiplication_page.php CSS Style */
+.max_num {
+    text-align: right;
+}
+
+.max-num-input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.multiplication_cell {
+    font-family: monospace, 'Courier New', Courier;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+
+}
