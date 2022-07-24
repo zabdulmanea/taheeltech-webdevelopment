@@ -55,12 +55,12 @@
 
     <div class="exercise_div">
         <h2 class="ex_no">تطبيق اليوم ١٧</h2>
-        <a class="ex_link" target="_blank" href="day 017 simple calculator/simple_calculator.php" alt="آلة حاسبة مبسطة">برمجة آلة حاسبة مُبسطة Simple Calculator</a>
+        <a class="ex_link" target="_blank" href="day 017 simple calculator/view_simple_calculator.php" alt="آلة حاسبة مبسطة">برمجة آلة حاسبة مُبسطة Simple Calculator</a>
     </div>
 
     <div style="display: none;">
     </div>
-
+      
     <?php include 'footer.php'; ?>
 </body>
 

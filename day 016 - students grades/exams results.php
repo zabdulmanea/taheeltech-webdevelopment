@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Spline+Sans+Mono:wght@600&family=Tajawal&display=swap" rel="stylesheet">
-    <title>درجات الاختبارات لطالبات الصف الزول ثانوي</title>
+    <title>درجات الاختبارات لطالبات الصف الأول ثانوي</title>
     <style>
         p {
             margin: 5px 0 5px 0;
@@ -36,7 +36,6 @@
         span {
             color: #347474;
         }
-
     </style>
 </head>
 
@@ -177,6 +176,12 @@
             </table>
         </div>
     </div>
+
+    <h2>الكود البرمجي لعرض درجات الاختبار لطالبات الصف الأول ثانوي</h2>
+    <div class="code" dir="ltr">
+        <a target="_blanlk" href="https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/dba28972efd0747b0a1e86afd5874835e021cb29/day%20016%20-%20students%20grades/exams%20results.php">الكود البرمجي لهذه الصفحة</a>
+    </div>
+
     <?php include '../footer.php'; ?>
 </body>
 

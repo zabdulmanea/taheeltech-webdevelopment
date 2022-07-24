@@ -1,56 +1,64 @@
-<!DOCTYPE html>
-<html lang="ar">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>آلة حاسبة مُبسطة Simple Calculator</title>
-</head>
-
-<body>
-    <h1>آلة حاسبة مُبسطة Simple Calculator</h1>
-    <form method="POST" action="calculate.php" name="calform" id="calform">
-        <div>
-            <label for="no1">Number 1</label>
-            <input type="number" step="0.1" name="no1" id="no1" required>
-        </div>
-
-        <div>
-            <label for="no2">Number 2</label>
-            <input type="number" step="0.1" name="no2" id="no2" required>
-        </div>
-
-        <div class="">
-            <label for="arth_operation">Select Arithmetic Operator</label>
-            <select name="arth_operation" id="arth_operation" required>
-                <option value="" selected disabled hidden>Choose here</option>
-                <option value="sum_operation">+</option>
-                <option value="sub_operation">-</option>
-                <option value="multi_operation">×</option>
-                <option value="div_operation">÷</option>
-                <option value="remind_operation">%</option>
-                <!-- <option value="sqrt_operation">&Sqrt;</option> -->
-            </select>
-
-        </div>
-
-        <div>
-            <button type="submit" name="submit" id="submit">Calculate</button>
-        </div>
-
-    </form>
-
-    <div class="code" dir="ltr">
-        <?php
-        $code = file_get_contents('https://raw.githubusercontent.com/zabdulmanea/taheeltech-webdevelopment/dba28972efd0747b0a1e86afd5874835e021cb29/index.php');
-        // $code = str_replace('$','\$',$code);
-        // $code = str_replace('"','\"',$code);
-        // highlight_string($code);  
-        // highlight_string('<html>');
-        ?>
-    </div>
-
-</body>
-
-</html>
+function SimpleCalculator($no1, $no2, $operation)
+{
+    if (
+        isset($no1) && isset($no2) && isset($operation)
+        && !empty($no1) && !empty($no2) && !empty($operation)
+    ) {
+        $result=0;
+        switch ($operation) {
+            case 'sum':
+                $result = $no1 + $no2;
+                break;
+            case 'sub':
+                $result = $no1 - $no2;
+                break;
+            case 'multiplaction':
+                $result = $no1 * $no2;
+                break;
+            case 'division':
+                $result = $no1 / $no2;
+                break;
+            case 'reminder':
+                $result = $no1 % $no2;
+                break;
+            default:
+                $result = 'Wrong Arithmetic Operation!';
+        }
+        return $result;
+    } else {
+        echo '';
+    }
+}
+// if (
+//     isset($_POST['no1']) && isset($_POST['no2']) && isset($_POST['operation'])
+//     && !empty($_POST['no1']) && !empty($_POST['no2']) && !empty($_POST['operation'])
+// ) {
+//     $no1 = $_POST['no1'];
+//     $no2 = $_POST['no2'];
+//     $operation = $_POST['operation'];
+//     $result;
+//     switch ($operation) {
+//         case 'sum':
+//             $result = $no1 + $no2;
+//             break;
+//         case 'sub':
+//             $result = $no1 - $no2;
+//             break;
+//         case 'multiplaction':
+//             $result = $no1 * $no2;
+//             break;
+//         case 'division':
+//             $result = $no1 / $no2;
+//             break;
+//         case 'reminder':
+//             $result = $no1 % $no2;
+//             break;
+//         default:
+//             $result = 'Wrong Arithmetic Operation!';
+//     }
+//     return $result;
+// } else {
+//     echo 'ERROR';
+// }
