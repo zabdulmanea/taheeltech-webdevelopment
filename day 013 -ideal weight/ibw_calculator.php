@@ -32,4 +32,3 @@ switch ($gender) {
     default:
         $ibw = 0;
 }
-?>

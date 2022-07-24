@@ -84,29 +84,29 @@ body {
     padding: 15px;
 } */
 
-.form-div {
+/* .form-div {
     text-align: right;
     margin: 10px;
     padding: 20px;
     background-color: #e1dad4;
     border-radius: 20px;
     /* width: 400px; */
-}
+/* } */
 
-.form-div div {
+/* .form-div div {
     margin: 10px;
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
-}
+} */
 
 .buttons {
     text-align: center;
-}
+} */
 
-.buttons button {
+/* .buttons button {
     border: 0;
     border-radius: 10px;
     box-sizing: border-box;
@@ -133,7 +133,7 @@ body {
 
 .asterisks {
     color: red;
-}
+} */
 
 .result-div {
     flex: 1;

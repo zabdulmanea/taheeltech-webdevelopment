@@ -69,11 +69,6 @@ select {
     border-width: 1px;
 }
 
-/* input:not(input[type=radio]) {
-    width: 80%;
-    height: 20px;
-} */
-
 .container {
     display: flex;
     flex-flow: row wrap;
@@ -82,9 +77,39 @@ select {
 .code {
     flex: 1 60%;
     background-color: white;
+    /* background-color: #f7f0ee; */
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
+}
+
+
+.asterisks {
+    color: red;
+}
+
+.buttons-div {
+    text-align: center;
+}
+
+.buttons-div button {
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 15px;
+    width: 150px;
+    color: rgb(250, 249, 246);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+.submit-btn {
+    background: #4bae6fe5;
+}
+
+.reset-btn {
+    background: #bd2f2f;
 }
 
 /* ################################################### */
@@ -248,36 +273,8 @@ footer {
     flex: 1 40%;
 }
 
-.buttons-div {
-    text-align: center;
-}
-
-.buttons-div button {
-    border: 0;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 13pt;
-    padding: 15px;
-    width: 150px;
-    color: rgb(250, 249, 246);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    cursor: pointer;
-}
-
-.submit-btn {
-    background: #4bae6fe5;
-}
-
-.reset-btn {
-    background: #bd2f2f;
-}
-
 .helath-det textarea {
     width: 100%;
-}
-
-.asterisks {
-    color: red;
 }
 
 /* ################################################### */
@@ -349,4 +346,43 @@ footer {
     font-size: 14px;
     text-align: center;
 
+}
+
+/* ################################################### */
+/* bmi_ibw_calculator.php CSS Style */
+.form-div {
+    margin: 10px;
+    padding: 20px;
+    background-color: #e1dad4;
+    border-radius: 20px;
+}
+
+.form-div div {
+    margin: 10px;
+}
+
+.form-div input:not(input[type=radio]) {
+    width: 80%;
+    height: 30px;
+}
+
+.smaller-btns-div button {
+    font-size: 12pt;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+}
+
+.result-div {
+    flex: 1;
+    padding: 10px;
+}
+
+.result-div h3 {
+    color: #625f5e;
+    border-bottom: 5px solid #9c958e;
+}
+
+.result-div label {
+    color: #b9806a;
 }
