@@ -36,3 +36,43 @@
     }
 }
 
+
+/* ################################################### */
+/* Header CSS Style */
+header {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.owner-div {
+    height: 8px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.owner-div span {
+    font-size: 15px;
+    background-color: #fcf8f3;
+    padding: 0 10px;
+}
+
+/* ################################################### */
+/* Footer CSS Style */
+footer {
+    color: #959072;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.heart {
+    color: #b63434;
+    /* Animation */
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+}

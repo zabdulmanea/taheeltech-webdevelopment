@@ -18,8 +18,8 @@
 
     <header>
         <h1>التطبيق العملي لتدريبات المستوى الأول</h1>
-        <div style="width: 100%; height: 8px; border-bottom: 1px solid black; text-align: center; margin-bottom: 50px;">
-            <span style="font-size: 15px; background-color: #fcf8f3; padding: 0 10px;">
+        <div class="owner-div">
+            <span>
                 زينب عبدالمانع
             </span>
         </div>
