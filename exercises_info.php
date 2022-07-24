@@ -49,7 +49,7 @@ $exercises_info = array(
         'subtitle' => 'رسم جدول الضرب على شكل مثلث',
         'alt' => 'رسم جدول الضرب',
         'href' => 'day 012 - pyramid multiplication table/pyramid_multiplicatio_page.php',
-        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20012%20-%20pyramid%20multiplication%20table/pyramid_multiplicatio.php'
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20012%20-%20pyramid%20multiplication%20table/pyramid_multiplication.php'
     ),
     array(
         'title' => 'تطبيق اليوم ١٣',
@@ -63,7 +63,7 @@ $exercises_info = array(
         'subtitle' => 'عرض درجات الاختبار بالمواد الدراسية لمجموعة طلاب بالصف الأول الثانوي وتحديد النسبة المئوية وحالة الطالب',
         'alt' => 'عرض درجات الاختبار للطلاب',
         'href' => 'day 016 - students grades/exams_results_page.php',
-        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20016%20-%20students%20grades/exams%20results.php'
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/tree/main/day%20016%20-%20students%20grades'
     ),
     array(
         'title' => 'تطبيق اليوم ١٧',
