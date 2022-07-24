@@ -39,12 +39,12 @@ body {
     height: 20px;
 } */
 
-.exercise_div {
+/* .exercise_div {
     border-radius: 10px;
     margin: 10px;
     display: flex;
     flex-flow: row wrap;
-}
+} */
 
 .ex_no {
     flex: 1;
