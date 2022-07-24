@@ -74,6 +74,19 @@ select {
     height: 20px;
 } */
 
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.code {
+    flex: 1 60%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 /* ################################################### */
 /* Header CSS Style */
 header {
@@ -268,7 +281,7 @@ footer {
 }
 
 /* ################################################### */
-/* view_draw_triangles.php CSS Style */
+/* draw_triangles_page.php CSS Style */
 .tri_high-div {
     margin-top: 50px;
     color: #2C3333;
@@ -281,25 +294,36 @@ footer {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .triangle-div {
     flex: 1 20%;
     font-family: 'Spline Sans Mono', monospace;
     background-color: #A5C9CA;
-}
-
-.code {
-    flex: 1 60%;
-    background-color: white;
-}
-
-.triangle-div,
-.code {
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
+}
+
+/* ################################################### */
+/* chess_board_page.php CSS Style */
+.chess {
+    flex: 1 37%;
+    text-align: center;
+    align-self: center;
+    font-size: 0;
+}
+
+.chess_cell {
+    display: inline-block;
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
 }

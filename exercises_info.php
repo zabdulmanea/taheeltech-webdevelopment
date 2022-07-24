@@ -41,8 +41,8 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ١٢',
         'subtitle' => 'رسم مخطط قطع الشطرنج',
         'alt' => 'رسم مخطط قطع الشطرنج',
-        'link' => '',
-        'code_link' => ''
+        'link' => 'day 012 - render chess board/chess_board_page.php',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20012%20-%20render%20chess%20board/chess_board.php'
     ),
     array(
         'title' => 'تطبيق اليوم ١٢',
