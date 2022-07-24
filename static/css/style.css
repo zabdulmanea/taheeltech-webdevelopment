@@ -410,7 +410,7 @@ footer {
     border-radius: 5px;
     background-color: #fafafa;
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
 }
 
 .certificate-div span {
@@ -434,13 +434,15 @@ footer {
     padding: 0;
 }
 
-.table-div, .results-table-div {
+.table-div,
+.results-table-div {
     margin: 20px;
     text-align: center;
     align-self: center;
 }
 
-.table-div th, .results-table-div th {
+.table-div th,
+.results-table-div th {
     background-color: #385170;
     color: #ececec;
 }
@@ -454,7 +456,8 @@ footer {
     color: #ececec;
 }
 
-.table-div td, .results-table-div td {
+.table-div td,
+.results-table-div td {
     font-weight: bold;
     background-color: white;
 }
@@ -463,3 +466,61 @@ footer {
     display: flex;
     flex-flow: column wrap;
 }
+
+/* ################################################### */
+/* simple_calculator_view.php CSS Style */
+.calculator {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8dddb;
+    border-radius: 10px;
+}
+
+.no-div {
+    margin: 20px;
+    text-align: center;
+}
+
+.no-div input {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Spline Sans Mono', monospace;
+    color: #385170;
+}
+
+.operations {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background: #d1a7c2;
+    background-image: linear-gradient(to bottom, #d1a7c2, #c295bd);
+    border-radius: 28px;
+    font-family: monospace, 'Courier New', Courier;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #e3b8d2;
+    background-image: linear-gradient(to bottom, #e3b8d2, #d1afc4);
+    text-decoration: none;
+}
+
+.result {
+    text-align: center;
+    margin: 20px;
+}
+
+.result-p {
+    color:#447068;
+}
+
+/* ################################################### */
+/* #####.php CSS Style */

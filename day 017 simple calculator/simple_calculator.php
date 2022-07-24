@@ -6,59 +6,34 @@ function SimpleCalculator($no1, $no2, $operation)
         isset($no1) && isset($no2) && isset($operation)
         && !empty($no1) && !empty($no2) && !empty($operation)
     ) {
-        $result=0;
+        $result = 0;
+        $output = '';
         switch ($operation) {
             case 'sum':
                 $result = $no1 + $no2;
+                $output = 'ناتج الجمع يساوي ' . $result;
                 break;
             case 'sub':
                 $result = $no1 - $no2;
+                $output = 'ناتج الطرح يساوي ' . $result;
                 break;
             case 'multiplaction':
                 $result = $no1 * $no2;
+                $output = 'ناتج الضرب يساوي ' . $result;
                 break;
             case 'division':
                 $result = $no1 / $no2;
+                $output = 'ناتج القسمة يساوي ' . $result;
                 break;
             case 'reminder':
                 $result = $no1 % $no2;
+                $output = 'ناتج باقي القسمة يساوي ' . $result;
                 break;
             default:
-                $result = 'Wrong Arithmetic Operation!';
+                $output = 'Wrong Arithmetic Operation!';
         }
-        return $result;
+        return $output;
     } else {
         echo '';
     }
 }
-// if (
-//     isset($_POST['no1']) && isset($_POST['no2']) && isset($_POST['operation'])
-//     && !empty($_POST['no1']) && !empty($_POST['no2']) && !empty($_POST['operation'])
-// ) {
-//     $no1 = $_POST['no1'];
-//     $no2 = $_POST['no2'];
-//     $operation = $_POST['operation'];
-//     $result;
-//     switch ($operation) {
-//         case 'sum':
-//             $result = $no1 + $no2;
-//             break;
-//         case 'sub':
-//             $result = $no1 - $no2;
-//             break;
-//         case 'multiplaction':
-//             $result = $no1 * $no2;
-//             break;
-//         case 'division':
-//             $result = $no1 / $no2;
-//             break;
-//         case 'reminder':
-//             $result = $no1 % $no2;
-//             break;
-//         default:
-//             $result = 'Wrong Arithmetic Operation!';
-//     }
-//     return $result;
-// } else {
-//     echo 'ERROR';
-// }
