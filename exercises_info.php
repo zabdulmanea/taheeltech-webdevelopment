@@ -34,7 +34,7 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ١١',
         'subtitle' => 'رسم مثلثات بالنجوم',
         'alt' => 'رسم مثلثات بالنجوم',
-        'link' => 'day 011 - draw triangles with stars/view_draw_triangles.php',
+        'link' => 'day 011 - draw triangles with stars/draw_triangles_page.php',
         'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20011%20-%20draw%20triangles%20with%20stars/draw_triangles.php'
     ),
     array(
