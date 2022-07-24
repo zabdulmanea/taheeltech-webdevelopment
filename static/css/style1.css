@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-html {
+/* html {
     background-color: #9c958e;
 }
 
@@ -15,25 +15,29 @@ body {
     padding-bottom: 1px;
     color: #625f5e;
 
-}
+} */
 
-button {
+/* button {
     font-family: 'Tajawal', sans-serif;
-}
+} */
+
+/* h1 {
+    text-align: center;
+} */
 
 .form-div label {
     display: block;
 }
 
-input {
+/* input {
     border-radius: 5px;
     border-color: #f9eee5;
-}
+} */
 
-input:not(input[type=radio]) {
+/* input:not(input[type=radio]) {
     width: 80%;
     height: 20px;
-}
+} */
 
 .exercise_div {
     border-radius: 10px;

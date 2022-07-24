@@ -36,11 +36,41 @@
     }
 }
 
+/* ################################################### */
+/* All Pages CSS Style */
+html {
+    background-color: #9c958e;
+}
+
+body, button {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: #fcf8f3;
+    margin: 0 150px;
+    color: #625f5e;
+}
+
+.row {
+    padding: 10px 30px;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #f9eee5;
+}
+
+input:not(input[type=radio]) {
+    width: 80%;
+    height: 20px;
+}
 
 /* ################################################### */
 /* Header CSS Style */
 header {
     padding: 15px;
+    background-color: #f3ecec;
 }
 
 h1 {
@@ -51,12 +81,12 @@ h1 {
     height: 8px;
     border-bottom: 1px solid black;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .owner-div span {
     font-size: 15px;
-    background-color: #fcf8f3;
+    background-color: #f3ecec;
     padding: 0 10px;
 }
 
@@ -76,3 +106,4 @@ footer {
     transform: rotate(-45deg) scale(1);
     animation: pulse 2s linear infinite;
 }
+
