@@ -1,7 +1,7 @@
 <style>
     /***  footer style
 --------------------------------------------------------------------------- ***/
-
+/* 
     footer {
         width: 100%;
     }
@@ -18,7 +18,7 @@
         display: inline-block;
         position: relative;
         color: #b63434;
-    }
+    } */
 </style>
 
 <footer>
