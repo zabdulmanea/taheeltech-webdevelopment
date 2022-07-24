@@ -39,7 +39,7 @@
     </header>
     <div class="row">
         <div class="flex-container">
-            
+
             <div class="results-table-div">
                 <table>
                     <tr>
@@ -88,6 +88,7 @@
                                 </tr>
 
                                 <?php
+                                /** @var array $student */
                                 foreach ($student['subjects'] as $subject => $grade) {
                                     if ($grade < 50) {
                                         echo '<tr><td>' . $subject . '</td><td style="color: red;">' .  $grade . '</td></tr>';
