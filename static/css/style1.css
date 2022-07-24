@@ -25,9 +25,9 @@ body {
     text-align: center;
 } */
 
-.form-div label {
+/* .form-div label {
     display: block;
-}
+} */
 
 /* input {
     border-radius: 5px;
@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-flow: row wrap;
 } */
-
+/* 
 .ex_no {
     flex: 1;
     justify-content: center;
@@ -82,7 +82,7 @@ body {
 .ex_no,
 .ex_link {
     padding: 15px;
-}
+} */
 
 .form-div {
     text-align: right;
