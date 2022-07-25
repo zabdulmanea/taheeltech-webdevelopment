@@ -35,12 +35,12 @@
 
                     <div>
                         <label for="height">الطول (cm) <span class="asterisks">*</span></label>
-                        <input type="number" step="0.01" id="height" name="height" value="<?php echo $height ?>" required>
+                        <input type="number" step="0.01" id="height" name="height" required>
                     </div>
 
                     <div>
                         <label for="weight">الوزن الحالي (kg) <span class="asterisks">*</span></label>
-                        <input type="number" id="weight" step="0.01" name="weight" value="<?php echo $weight ?>" required>
+                        <input type="number" id="weight" step="0.01" name="weight" required>
                     </div>
 
                     <div class="buttons-div smaller-btns-div">
@@ -52,19 +52,11 @@
 
             <div class="result-div">
                 <h3>النتائج</h3>
-                <p>
-                    كتلة جسمك تساوي
-                    <label><?php echo round($bmi, 2); ?></label>
-
-                </p>
-                <p>
-                    لديك
-                    <label><?php echo $weight_status; ?></label>
-                </p>
-                <p>
-                    وزنك المثالي
-                    <label><?php echo round($ibw, 2); ?></label>
-                </p>
+                <p><?php echo (!empty($height) ? 'طولك : <label>' . $height . ' سم' : ''); ?></label></p>
+                <p><?php echo (!empty($weight) ? 'وزنك الحالي : <label>' . $weight . ' كجم' : ''); ?></label></p>
+                <p><?php echo (!empty($ibw) ? 'وزنك المثالي <label>' . round($ibw, 2) . ' كجم' : ''); ?></label></p>
+                <p><?php echo (!empty($bmi) ? 'كتلة جسمك : <label>' . round($bmi, 2) : ''); ?></label></p>
+                <p><?php echo (!empty($weight_status) ? 'لديك <label>' . $weight_status : ''); ?></label></p>
             </div>
         </div>
 

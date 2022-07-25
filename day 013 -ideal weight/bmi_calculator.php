@@ -23,26 +23,30 @@
         BMI >= 40 then user has 'سمنة مفرطة جدًا'
     */
 
-$height = $_POST['height'] ?? 1;
-$weight = $_POST['weight'] ?? 0;
+$height = $_POST['height'] ?? '';
+$weight = $_POST['weight'] ?? '';
+if (
+    isset($height) && isset($weight)
+    && !empty($height) && !empty($weight)
+) {
+    $bmi = $weight / pow(($height / 100), 2);
+    $weight_status = '';
 
-$bmi = $weight / pow(($height / 100), 2);
-$weight_status = '';
-
-if ($bmi < 15) {
-    $weight_status = 'نقص حاد جدًا في الوزن';
-} elseif ($bmi >= 15 && $bmi < 16) {
-    $weight_status = 'نقص حاد في الوزن';
-} elseif ($bmi >= 16 && $bmi < 18.5) {
-    $weight_status = 'نقص في الوزن';
-} elseif ($bmi >= 18.5 && $bmi < 25) {
-    $weight_status = 'وزن طبيعي';
-} elseif ($bmi >= 25 && $bmi < 30) {
-    $weight_status = 'زيادة في الوزن';
-} elseif ($bmi >= 30 && $bmi < 35) {
-    $weight_status = 'سمنة درجة أولى';
-} elseif ($bmi >= 35 && $bmi < 40) {
-    $weight_status = 'سمنة درجة ثانية';
-} else {
-    $weight_status = 'سمنة مفرطة جدًا';
+    if ($bmi < 15) {
+        $weight_status = 'نقص حاد جدًا في الوزن';
+    } elseif ($bmi >= 15 && $bmi < 16) {
+        $weight_status = 'نقص حاد في الوزن';
+    } elseif ($bmi >= 16 && $bmi < 18.5) {
+        $weight_status = 'نقص في الوزن';
+    } elseif ($bmi >= 18.5 && $bmi < 25) {
+        $weight_status = 'وزن طبيعي';
+    } elseif ($bmi >= 25 && $bmi < 30) {
+        $weight_status = 'زيادة في الوزن';
+    } elseif ($bmi >= 30 && $bmi < 35) {
+        $weight_status = 'سمنة درجة أولى';
+    } elseif ($bmi >= 35 && $bmi < 40) {
+        $weight_status = 'سمنة درجة ثانية';
+    } else {
+        $weight_status = 'سمنة مفرطة جدًا';
+    }
 }
