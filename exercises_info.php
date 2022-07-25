@@ -69,7 +69,7 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ١٧',
         'subtitle' => 'برمجة آلة حاسبة مُبسطة Simple Calculator',
         'alt' => 'آلة حاسبة مبسطة',
-        'href' => 'day 017 simple calculator/simple_calculator_view.php',
+        'href' => 'day 017 simple calculator/simple_calculator_page.php',
         'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20017%20simple%20calculator/simple_calculator.php'
     )
 );

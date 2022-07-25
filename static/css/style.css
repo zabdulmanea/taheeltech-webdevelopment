@@ -10,10 +10,24 @@
     display: table;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
 
-    /* For tablets: */
+    /* For mobiles & tablets: */
     .col-s-1 {
+        width: 100%;
+    }
+
+    [class*="ex-col-"] a,
+    .reg-form {
+        font-size: 3vw;
+    }
+
+    .ex-col-1,
+    .triangle-div {
+        font-size: 2vw;
+    }
+
+    .calculator {
         width: 100%;
     }
 }
@@ -27,6 +41,10 @@
 
     body {
         margin: 0 150px;
+    }
+
+    .calculator {
+        width: 50%;
     }
 }
 
@@ -72,6 +90,9 @@ select {
 .container {
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .code {
@@ -81,6 +102,8 @@ select {
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 
@@ -162,7 +185,7 @@ footer {
     border-radius: 10px;
     margin: 15px 0;
     text-align: center;
-    height: 70px;
+    min-height: 70px;
 }
 
 [class*="ex-col-"] {
@@ -172,6 +195,7 @@ footer {
 [class*="ex-col-"]>* {
     display: table-cell;
     vertical-align: middle;
+    padding: 5px;
 }
 
 .ex-col-1 {
@@ -232,7 +256,7 @@ footer {
 /* ################################################### */
 /* registration_form.php CSS Style */
 .reg-form {
-    margin: 0 150px;
+    margin: 20px 0;
     padding: 4% 5%;
     background-color: rgb(250, 249, 246);
     border-radius: 30px;
@@ -338,6 +362,19 @@ footer {
 
 }
 
+.multiply-table-div {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.multiply-table td:nth-child(even) {
+    background-color: #ffaaa5;
+}
+
+.multiply-table td:nth-child(odd) {
+    background-color: #ffd3b6;
+}
+
 .multiplication_cell {
     font-family: monospace, 'Courier New', Courier;
     display: inline-block;
@@ -350,6 +387,13 @@ footer {
 
 /* ################################################### */
 /* bmi_ibw_calculator.php CSS Style */
+.bmi-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+}
+
 .form-div {
     margin: 10px;
     padding: 20px;
@@ -364,6 +408,7 @@ footer {
 .form-div input:not(input[type=radio]) {
     width: 80%;
     height: 30px;
+    text-align: center;
 }
 
 .smaller-btns-div button {
@@ -470,7 +515,6 @@ footer {
 /* ################################################### */
 /* simple_calculator_view.php CSS Style */
 .calculator {
-    width: 50%;
     margin: 20px auto;
     padding: 20px;
     background-color: #e8dddb;
@@ -519,7 +563,7 @@ footer {
 }
 
 .result-p {
-    color:#447068;
+    color: #447068;
 }
 
 /* ################################################### */

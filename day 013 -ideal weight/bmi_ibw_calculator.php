@@ -23,7 +23,7 @@
         require 'bmi_calculator.php';
         require 'ibw_calculator.php';
         ?>
-        <div class="container">
+        <div class="bmi-container">
 
             <div class="form-div">
                 <form id="myfrm" name="myfrm" action="" method="post" enctype="multipart/form-data">

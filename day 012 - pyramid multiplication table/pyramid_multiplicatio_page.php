@@ -31,22 +31,12 @@
         </form>
 
         <hr>
-        <table>
-            <colgroup>
-                <?php
-                $col_counter = 1;
-                while ($col_counter <= $max_num) {
-                    if ($col_counter % 2 == 0) {
-                        echo '<col style="background-color:#ffaaa5">';
-                    } else {
-                        echo '<col style="background-color:#ffd3b6">';
-                    }
-                    $col_counter++;
-                }
-                ?>
-            </colgroup>
-            <?php echo pyramid_multiplication_table($max_num); ?>
-        </table>
+        <div class="multiply-table-div">
+            <table class="multiply-table">
+                <?php echo pyramid_multiplication_table($max_num); ?>
+            </table>
+        </div>
+
         <hr>
         <h2>الكود البرمجي لبناء جدول الضرب </h2>
         <div class="code">

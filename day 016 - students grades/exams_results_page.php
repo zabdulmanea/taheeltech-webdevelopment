@@ -57,7 +57,7 @@
                         echo '<td>' . $student['name'] . '</td>';
                         echo '<td>' . $student['track'] . '</td>';
                         echo '<td>' . $student['total_grade'] . '</td>';
-                        echo '<td>' . $student['total_percentage'] . '</td>';
+                        echo '<td>%' . $student['total_percentage'] . '</td>';
                         echo '<td>' . ($student['isPassed'] ? 'ناجحة' : 'راسبة') . '</td>';
                         echo '</tr>';
                     }
