@@ -78,5 +78,12 @@ $exercises_info = array(
         'alt' => 'رفع صورة من نموذج',
         'href' => 'day 023 - upload image file/upload_file_page.php',
         'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20023%20-%20upload%20image%20file/upload_file.php'
+    ),
+    array(
+        'title' => 'تطبيق اليوم ٢٤',
+        'subtitle' => 'دالة لحساب مضروب العدد Factorial of positive a number',
+        'alt' => 'حساب مضروب العدد',
+        'href' => 'day 024 - factorial calculator/factorial_page.php',
+        'code_link' => ''
     ) 
 );
