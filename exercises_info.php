@@ -91,6 +91,13 @@ $exercises_info = array(
         'subtitle' => 'دالة لعكس متغير نصي',
         'alt' => 'عكس متغير نصي',
         'href' => 'day 024 - reverse text/reverse_text_page.php',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20024%20-%20reverse%20text/reverse_text.php'
+    ),
+    array(
+        'title' => 'تطبيق اليوم ٢٤',
+        'subtitle' => 'دالة لترتيب مصفوفة تصاعدياً',
+        'alt' => 'دالة لترتيب مصفوفة تصاعدياً',
+        'href' => 'day 024 - sort array/sort_array_page.php',
         'code_link' => ''
     ) 
 );
