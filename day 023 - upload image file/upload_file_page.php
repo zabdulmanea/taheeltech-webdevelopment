@@ -30,9 +30,9 @@
             ?>
         </div>
         <hr>
-        <h2>الكود البرمجي للآلة الحاسبة المبسطة</h2>
+        <h2>الكود البرمجي لرفع ملف (صورة) من نموذج</h2>
         <div class="code" dir="ltr">
-            <!-- <?php highlight_string(file_get_contents('') . '?>') ?> -->
+            <?php highlight_string(file_get_contents('upload_file.php') . '?>') ?>
         </div>
     </div>
     <?php include('../footer.php'); ?>
