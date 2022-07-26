@@ -575,4 +575,31 @@ footer {
 }
 
 /* ################################################### */
-/* #####.php CSS Style */
+/* upload_file_page.php CSS Style */
+
+.upload-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 70%;
+    border: #cdcdcd solid 1px;
+    padding-bottom: 0;
+
+}
+
+.error-msg {
+    color: #b63434;
+}
+
+.success-msg {
+    color: #347474;
+}
+
+.uploadedImg-div {
+    width: 100%;
+}
+
+.uploadedImg-div img{
+    max-width: 90%;
+}

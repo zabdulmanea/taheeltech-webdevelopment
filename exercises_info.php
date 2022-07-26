@@ -76,7 +76,7 @@ $exercises_info = array(
         'title' => 'تطبيق اليوم ٢٣',
         'subtitle' => 'دالة لرفع الملفات والصور من النماذج',
         'alt' => 'رفع صورة من نموذج',
-        'href' => 'day 023 - upload image file/file_uploaded_page.php',
+        'href' => 'day 023 - upload image file/upload_file_page.php',
         'code_link' => ''
     ) 
 );
