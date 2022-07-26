@@ -27,7 +27,9 @@
         font-size: 2vw;
     }
 
-    .calculator, .upload-container, .simple-form-container {
+    .calculator,
+    .upload-container,
+    .simple-form-container {
         width: 100%;
     }
 
@@ -54,7 +56,8 @@
         width: 50%;
     }
 
-    .upload-container, .simple-form-container {
+    .upload-container,
+    .simple-form-container {
         width: 70%;
     }
 }
@@ -602,7 +605,7 @@ footer {
     width: 100%;
 }
 
-.uploadedImg-div img{
+.uploadedImg-div img {
     max-width: 90%;
 }
 
@@ -628,7 +631,26 @@ footer {
     color: #347474;
 }
 
-.txt-result h3{
+.txt-result h3 {
     color: #1e2d2d;
     font-weight: bold;
+}
+
+/* ################################################### */
+/* sort_array_page.php CSS Style */
+.sort-array-container {
+    text-align: center;
+}
+
+.sort-options .btn {
+    width: 300px;
+    font-family: 'Tajawal', sans-serif;
+    background: #1c3c3f;
+    background-image: linear-gradient(to bottom, #1c3c3f, rgb(97, 126, 133));
+
+}
+
+.sort-options .btn:hover {
+    background: #a7cdd1;
+    background-image: linear-gradient(to bottom, #a7d1c4, #95bac2);
 }

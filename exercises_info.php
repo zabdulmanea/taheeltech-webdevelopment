@@ -98,6 +98,6 @@ $exercises_info = array(
         'subtitle' => 'دالة لترتيب مصفوفة تصاعدياً',
         'alt' => 'دالة لترتيب مصفوفة تصاعدياً',
         'href' => 'day 024 - sort array/sort_array_page.php',
-        'code_link' => ''
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20024%20-%20sort%20array/sort_array.php'
     ) 
 );
