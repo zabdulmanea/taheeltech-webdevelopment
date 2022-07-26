@@ -19,10 +19,6 @@
     </header>
 
     <div class="row">
-        <?php
-        require 'bmi_calculator.php';
-        require 'ibw_calculator.php';
-        ?>
         <div class="bmi-container">
 
             <div class="form-div">
@@ -52,11 +48,25 @@
 
             <div class="result-div">
                 <h3>النتائج</h3>
-                <p><?php echo (!empty($height) ? 'طولك : <label>' . $height . ' سم' : ''); ?></label></p>
-                <p><?php echo (!empty($weight) ? 'وزنك الحالي : <label>' . $weight . ' كجم' : ''); ?></label></p>
-                <p><?php echo (!empty($ibw) ? 'وزنك المثالي <label>' . round($ibw, 2) . ' كجم' : ''); ?></label></p>
-                <p><?php echo (!empty($bmi) ? 'كتلة جسمك : <label>' . round($bmi, 2) : ''); ?></label></p>
-                <p><?php echo (!empty($weight_status) ? 'لديك <label>' . $weight_status : ''); ?></label></p>
+
+                <?php
+                require 'bmi_calculator.php';
+                require 'ibw_calculator.php';
+                $height = $_POST['height'] ?? '';
+                $weight = $_POST['weight'] ?? '';
+                $gender = $_POST['gender'] ?? '';
+                if (!empty($height) && !empty($weight) && !empty($gender)) {
+                    $ibw = round(Caluclate_ibw($gender, $height), 2);
+                    $bmi = round(Caluclate_bmi($height, $weight)[0], 2);
+                    $weight_status = Caluclate_bmi($height, $weight)[1];
+
+                    echo '<p>طولك : <label>' . $height . ' سم</label></p>';
+                    echo '<p>وزنك الحالي : <label>' . $weight . ' كجم</label></p>';
+                    echo '<p>وزنك المثالي <label>' . $ibw . ' كجم</label></p>';
+                    echo '<p>كتلة جسمك : <label>' . $bmi . '</label></p>';
+                    echo '<p>لديك <label>' . $weight_status . '</label></p>';
+                }
+                ?>
             </div>
         </div>
 
