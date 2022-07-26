@@ -27,7 +27,7 @@
         font-size: 2vw;
     }
 
-    .calculator, .upload-container {
+    .calculator, .upload-container, .simple-form-container {
         width: 100%;
     }
 
@@ -54,7 +54,7 @@
         width: 50%;
     }
 
-    .upload-container {
+    .upload-container, .simple-form-container {
         width: 70%;
     }
 }
@@ -588,7 +588,6 @@ footer {
     border-radius: 10px;
     border: #cdcdcd solid 1px;
     padding-bottom: 0;
-
 }
 
 .error-msg {
@@ -605,4 +604,31 @@ footer {
 
 .uploadedImg-div img{
     max-width: 90%;
+}
+
+/* ################################################### */
+/* reverse_text_page.php CSS Style */
+
+.textarea-text-div {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.simple-form-container {
+    background-color: #e3dfda;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: #cdcdcd solid 1px;
+    padding-bottom: 0;
+}
+
+.txt-result {
+    text-align: right;
+    color: #347474;
+}
+
+.txt-result h3{
+    color: #1e2d2d;
+    font-weight: bold;
 }

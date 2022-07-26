@@ -84,6 +84,13 @@ $exercises_info = array(
         'subtitle' => 'دالة لحساب مضروب العدد Factorial of positive a number',
         'alt' => 'حساب مضروب العدد',
         'href' => 'day 024 - factorial calculator/factorial_page.php',
+        'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20024%20-%20factorial%20calculator/factorial.php'
+    ),
+    array(
+        'title' => 'تطبيق اليوم ٢٤',
+        'subtitle' => 'دالة لعكس متغير نصي',
+        'alt' => 'عكس متغير نصي',
+        'href' => 'day 024 - reverse text/reverse_text_page.php',
         'code_link' => ''
     ) 
 );
