@@ -71,5 +71,12 @@ $exercises_info = array(
         'alt' => 'آلة حاسبة مبسطة',
         'href' => 'day 017 simple calculator/simple_calculator_page.php',
         'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20017%20simple%20calculator/simple_calculator.php'
-    )
+    ),
+    array(
+        'title' => 'تطبيق اليوم ٢٣',
+        'subtitle' => 'دالة لرفع الملفات والصور من النماذج',
+        'alt' => 'رفع صورة من نموذج',
+        'href' => 'day 023 - upload image file/file_uploaded_page.php',
+        'code_link' => ''
+    ) 
 );
