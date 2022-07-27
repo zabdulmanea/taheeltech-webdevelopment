@@ -16,7 +16,7 @@
             <form action="" method="post" enctype="multipart/form-data">
                 <div class="textarea-text-div">
                     <label for="text">أدخل النص: </label>
-                    <textarea class="textarea-text" id="text" name="text" rows="10" required></textarea>
+                    <textarea dir="auto" class="textarea-text" id="text" name="text" rows="10" required></textarea>
                 </div>
 
                 <div class="buttons-div smaller-btns-div">
@@ -24,7 +24,7 @@
                 </div>
             </form>
 
-            <div class="result txt-result">
+            <div class="result txt-result" dir="auto">
                 <?php
                 require('reverse_text.php');
                 if (isset($_POST["text"]) && !empty($_POST["text"])) {

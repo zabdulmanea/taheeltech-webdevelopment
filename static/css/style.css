@@ -573,7 +573,7 @@ footer {
 }
 
 .result {
-    text-align: center;
+    /* text-align: center; */
     margin: 20px;
 }
 
@@ -627,7 +627,7 @@ footer {
 }
 
 .txt-result {
-    text-align: right;
+    /* text-align: right; */
     color: #347474;
 }
 
