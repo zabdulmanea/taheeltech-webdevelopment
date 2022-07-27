@@ -28,10 +28,6 @@
         th {
             padding: 10px;
         }
-
-        th{
-            background-color: #1c3c3f;
-        }
     </style>
 </head>
 
@@ -53,8 +49,8 @@
             <div class="results-table-div">
                 <table>
                     <tr>
-                        <th>الاسم</th>
-                        <th>المعدل العام</th>
+                        <th style="background-color: #4f6d73;">الاسم</th>
+                        <th style="background-color: #4f6d73;">المعدل العام</th>
                     </tr>
                     <?php
 
