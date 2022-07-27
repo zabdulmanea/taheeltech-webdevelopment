@@ -2,13 +2,18 @@
 
 function revstr_char($str)
 {
-    #for UTF-8
-    $len = strlen($str);
-    $rev_str = '';
+    if (mb_detect_encoding($str) != 'UTF-8') {
+        #built-in function doesn't support UTF-8
+        return strrev($str);
+    } else {
+        #for UTF-8
+        $len = strlen($str);
+        $rev_str = '';
 
-    for ($i = $len - 1; $i >= 0; $i--)
-        $rev_str .= mb_substr($str, $i, 1);
-    return $rev_str;
+        for ($i = $len - 1; $i >= 0; $i--)
+            $rev_str .= mb_substr($str, $i, 1);
+        return $rev_str;
+    }
 }
 
 function revstr_word($str)
