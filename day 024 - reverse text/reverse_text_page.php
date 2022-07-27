@@ -30,7 +30,7 @@
                 if (isset($_POST["text"]) && !empty($_POST["text"])) {
                     echo '<h3>النص الأصلي </h3>' . $_POST["text"];
                     // echo '<h3>النص معكوس (حرف حرف)</h3>' . revstr_char($_POST["text"]);
-                    // echo '<h3>النص معكوس (كلمة كلمة)</h3>' . revstr_word($_POST["text"]);
+                    echo '<h3>النص معكوس (كلمة كلمة)</h3>' . revstr_word($_POST["text"]);
                 }
                 ?>
             </div>
