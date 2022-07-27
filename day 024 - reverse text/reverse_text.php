@@ -1,4 +1,4 @@
-<?
+<?php
 
 function revstr_char($str)
 {
