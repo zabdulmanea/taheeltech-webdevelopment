@@ -3,6 +3,9 @@
 function revstr_char($str)
 {
     $temp= mb_detect_encoding($str);
+    if($temp){
+        return 'Success1';
+    }
     // if (mb_detect_encoding($str) != 'UTF-8') {
     //     #built-in function doesn't support UTF-8
     //     return strrev($str);
@@ -15,7 +18,7 @@ function revstr_char($str)
     //         $rev_str .= mb_substr($str, $i, 1);
     //     return $rev_str;
     // }
-    return 'Success';
+    return 'Success2';
 }
 
 function revstr_word($str)
