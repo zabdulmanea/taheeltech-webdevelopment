@@ -1,11 +1,12 @@
 <?php
-
+// Reverse String by word
 function revstr_word($str)
 {
     return join(' ', array_reverse(explode(' ', $str)));
 }
 
-function utf8_strrev_word($str)
+// Reverse String by character
+function utf8_strrev_char($str)
 {
     #built-in function doesn't support UTF-8 (doesn't support Arabic)
     // return strrev($str);
