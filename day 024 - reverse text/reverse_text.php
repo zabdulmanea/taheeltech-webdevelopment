@@ -2,9 +2,9 @@
 
 function revstr_char($str)
 {
-    if (mb_detect_encoding($_POST["text"]) == 'ASCII') {
-        #built-in function for ASCII
-        return strrev($_POST["text"]);
+    if (mb_detect_encoding($str) != 'UTF-8') {
+        #built-in function doesn't support UTF-8
+        return strrev($str);
     } else {
         #for UTF-8
         $len = strlen($str);
