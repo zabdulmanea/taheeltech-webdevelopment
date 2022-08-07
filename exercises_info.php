@@ -9,7 +9,7 @@
 ) */
 
 $exercises_info = array(
-    array(
+   /* array(
         'title' => 'تطبيق اليوم ٢',
         'subtitle' => 'تصميم مقال بسيط',
         'alt' => 'تصميم مقال بسيط"',
@@ -22,7 +22,7 @@ $exercises_info = array(
         'alt' => 'تصميم جدول درجات الطلاب',
         'href' => 'day 003 - students grades table/grades table.html',
         'code_link' => 'https://github.com/zabdulmanea/taheeltech-webdevelopment/blob/main/day%20003%20-%20students%20grades%20table/grades%20table.html'
-    ),
+    ), */
     array(
         'title' => 'تطبيق اليوم ٥',
         'subtitle' => 'تصميم نموذج "تسجيل عضوية جديدة"',
