@@ -36,7 +36,7 @@
             </div>
         </div>
         <hr>
-        <h2>الكود البرمجي لرفع ملف (صورة) من نموذج</h2>
+        <h2>الكود البرمجي لعكس متغير نصي</h2>
         <div class="code" dir="ltr">
             <?php highlight_string(file_get_contents('reverse_text.php') . '?>') ?>
         </div>
